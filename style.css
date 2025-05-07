@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .cabecalho{
     display: flex;
@@ -19,6 +25,25 @@
     box-sizing: border-box;
     margin-left: 6%;
     width: 10dvw;
+}
+.corpo{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100dvw;
+    height: 50dvw;
+    background-position: cover;
+    background-image:url(Design\ sem\ nome.jpg);
+}
+.titulo{
+    font-size: 3rem;
+    margin-bottom: 23dvh;
+    font-family: "Lilita One", serif;
+}
+.check{
+    width: 25dvw;
+    margin-bottom: 45dvh;
 }
 .botton{
     background-color:#343a2e ;
