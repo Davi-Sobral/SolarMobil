@@ -33,7 +33,7 @@ body{
     display: flex;
     width: 100dvw;
     height: 50dvw;
-    background-position: cover;
+    background-position:center;
     background-image:url(Design\ sem\ nome.jpg);
 }
 .titulo{
@@ -58,6 +58,21 @@ body{
     }
     .logo{
         width: 38dvw;
+    }
+    .corpo{
+        background-size: cover;
+        width: 100dvw;
+        height: 90dvh;
+    }
+    .titulo{
+        font-size: 2.6rem;
+        width: 55dvw;
+        margin-bottom: 23dvh;
+    }
+    .check{
+        width: 55dvw;
+        margin-bottom: 45dvh;
+        margin-left: 5dvw;
     }
     .botton{
         width: 35dvw;
